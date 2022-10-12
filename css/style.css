@@ -21,12 +21,13 @@ header {
   text-align: center;
 }
 
-/* trying blur here */
+/* trying blur-effect here */
 
-header:hover {
+header:hover .content {
   filter: blur(2px);
   transition: all 1000ms;
 }
+
 /* end blur */
 
 header img {
@@ -85,8 +86,6 @@ h3 {
   text-align: center;
   padding: 10px 0;
 }
-
-/* Footer style */
 
 footer {
   text-align: center;
