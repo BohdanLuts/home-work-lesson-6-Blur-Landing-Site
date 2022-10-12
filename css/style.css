@@ -21,6 +21,14 @@ header {
   text-align: center;
 }
 
+/* trying blur here */
+
+header:hover {
+  filter: blur(2px);
+  transition: all 1000ms;
+}
+/* end blur */
+
 header img {
   width: 180px;
   height: 180px;
@@ -53,13 +61,14 @@ header img {
   width: 250px;
 }
 
-.productType h3 {
+h3 {
   font-size: 18.72px;
   margin: 18.72px 0;
   font-weight: bold;
 }
 
-.productType p {
+.productType p,
+.info p {
   margin: 16px 0;
 }
 
@@ -75,14 +84,6 @@ header img {
 .infoImg {
   text-align: center;
   padding: 10px 0;
-}
-.info h3 {
-  font-size: 18.72px;
-  margin: 18.72px 0;
-  font-weight: bold;
-}
-.info p {
-  margin: 16px 0;
 }
 
 /* Footer style */
