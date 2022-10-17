@@ -76,7 +76,7 @@ h3 {
 .aboutUs {
   background-color: #f4f4f4;
   color: #333333;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .aboutUsInfo div {
