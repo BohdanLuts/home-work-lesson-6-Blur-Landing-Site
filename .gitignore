@@ -1,5 +1,6 @@
 coverage/
 
-. *
+# Сhanged value for hidden files
+.*
 
 !.gitignore
